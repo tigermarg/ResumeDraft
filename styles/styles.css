@@ -1,0 +1,311 @@
+body {
+    color: rgb(0, 0, 0);
+    margin-left:20%;
+    margin-right: 20%;
+    border: 1px solid gray;
+    padding: 10px;
+    justify-content: center;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-shadow: 2px 2px 4px black
+}
+
+.boxes{
+    display: flex;
+}
+
+#box1 {
+    display: inline-block;
+    width: 65%;
+    height: auto;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+#box2 {
+    display: inline-block;
+    width: 29%;
+    height: auto;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+#box3 {
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    margin-top: 2px;
+    padding: 10px
+}
+
+#image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.history {
+    display: inline-block;
+    width: 60%;
+    height:auto;
+    border: 1px solid transparent;
+    padding: 10px
+}
+
+#date {
+    display: flex;
+    margin-left: auto;
+}
+
+.yearDate {
+    display: flex;
+    margin-bottom: 0
+}
+
+.title {
+    background-color: rgba(128, 128, 128, 0.171);
+    color:rgb(36, 34, 143);
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold
+}
+
+#titleBlock {
+    width: 5%;
+    background-color: rgb(36, 34, 143);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-bottom: 3px
+}
+
+li {
+    list-style-position: outside;
+    margin-left: 2em;
+}
+
+.skills {
+    display: inline-block;
+    width: 34%;
+    border: 1px solid transparent;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.language {
+    background-color: rgba(206, 199, 199, 0.39);
+    width: 100%;
+    text-align: right;
+    font-size: smaller; color: white;
+}
+
+#lang1 {
+    width:50%;
+    background-color: red;
+    margin-top: -15px;
+}
+
+#lang2 {
+    width:50%;
+    background-color: green;
+    margin-top: -15px
+}
+
+#lang3 {
+    width:25%;
+    background-color: blue;
+    margin-top: -15px
+}
+
+#lang4 {
+    width:25%;
+    background-color: yellow;
+    margin-top: -15px;
+}
+
+.header {
+    font-weight: bold; color: rgb(36, 34, 143);
+    padding-top: 20px
+}
+
+.graphic {
+    flex-direction: column;
+    width: 100%;
+    height: 16px;
+    font-size: medium;
+    display: inline-block;
+    margin-top: 5px
+}
+
+#graphic1 {
+    width: 5%;
+    background-color: red;
+    color: transparent
+}
+
+#graphic2 {
+    width: 5%;
+    background-color: green;
+    color: transparent
+}
+
+#graphic3 {
+    width: 5%;
+    background-color: blue;
+    color: transparent
+}
+
+#graphic4 {
+    width: 5%;
+    background-color: yellow;
+    color: transparent
+}
+
+.englishDot {
+    flex-direction: row;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+#edot1 {
+    height: 16px;
+    width: 16px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px
+}
+
+#edot2 {
+    height: 16px;
+    width: 16px;    height: 16px;
+    width: 16px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#edot3 {
+    height: 16px;
+    width: 16px;    height: 16px;
+    width: 16px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#edot4 {
+    height: 16px;
+    width: 16px;    height: 16px;
+    width: 16px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#edot5 {
+    height: 16px;
+    width: 16px;    height: 16px;
+    width: 16px;
+    background-color: rgba(206, 199, 199, 0.39);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.spanishDot {
+    flex-direction: row;
+    display: inline-block
+  }
+
+#sdot1 {
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px
+}
+
+#sdot2 {
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#sdot3 {
+    height: 16px;
+    width: 16px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#sdot4 {
+    height: 16px;
+    width: 16px;
+    background-color: rgba(206, 199, 199, 0.39);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#sdot5 {
+    height: 16px;
+    width: 16px;
+    background-color: rgba(206, 199, 199, 0.39);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.frenchDot {
+    flex-direction: row;
+    display: inline-block
+  }
+
+#fdot1 {
+    height: 16px;
+    width: 16px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 10px
+}
+
+#fdot2 {
+    height: 16px;
+    width: 16px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#fdot3 {
+    height: 16px;
+    width: 16px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#fdot4 {
+    height: 16px;
+    width: 16px;
+    background-color: rgba(206, 199, 199, 0.39);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#fdot5 {
+    height: 16px;
+    width: 16px;
+    background-color: rgba(206, 199, 199, 0.39);
+    border-radius: 50%;
+    display: inline-block;
+}
